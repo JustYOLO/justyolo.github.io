@@ -1,6 +1,4 @@
 main:
-  - title: "글 목록"
-    url: /posts/
   - title: "카테고리"
     url: /categories/
   - title: "태그"
