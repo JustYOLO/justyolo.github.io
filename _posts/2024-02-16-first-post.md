@@ -1,7 +1,7 @@
 ---
 title: "Welcome to Jekyll!"
-date: 2017-10-20 08:26:28 -0400
-categories: jekyll update
+date: 2024-02-16 17:10:28 -0400
+categories: etc
 ---
 
-test file
+첫 블로그 포스트입니다.
