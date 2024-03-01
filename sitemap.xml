@@ -1,92 +1,32 @@
+---
+layout: null
+---
+
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+                xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    {% for post in site.posts %}
+    <url>
+        <loc>{{ site.url }}{{ post.url }}</loc>
+        {% if post.lastmod == null %}
+        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+        {% else %}
+        <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
+        {% endif %}
 
+        {% if post.sitemap.changefreq == null %}
+        <changefreq>weekly</changefreq>
+        {% else %}
+        <changefreq>{{ post.sitemap.changefreq }}</changefreq>
+        {% endif %}
 
-<url>
-  <loc>https://justyolo.github.io/</loc>
-  <lastmod>2024-02-17T08:00:52+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://justyolo.github.io/categories/</loc>
-  <lastmod>2024-02-17T08:00:52+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://justyolo.github.io/tags/</loc>
-  <lastmod>2024-02-17T08:00:52+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://justyolo.github.io/linux-server/ServerMine/</loc>
-  <lastmod>2024-02-17T08:00:52+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://justyolo.github.io/linux-server/ServerMain/</loc>
-  <lastmod>2024-02-17T08:00:52+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://justyolo.github.io/linux-server/Server7/</loc>
-  <lastmod>2024-02-17T08:00:52+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://justyolo.github.io/linux-server/Server6/</loc>
-  <lastmod>2024-02-17T08:00:52+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://justyolo.github.io/linux-server/Server5/</loc>
-  <lastmod>2024-02-17T08:00:52+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://justyolo.github.io/page2/</loc>
-  <lastmod>2024-02-17T08:00:52+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://justyolo.github.io/page3/</loc>
-  <lastmod>2024-02-17T08:00:52+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://justyolo.github.io/linux-server/Server4/</loc>
-  <lastmod>2024-02-17T08:00:52+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://justyolo.github.io/linux-server/Server3/</loc>
-  <lastmod>2024-02-17T08:00:52+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://justyolo.github.io/linux-server/Server2/</loc>
-  <lastmod>2024-02-17T08:00:52+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://justyolo.github.io/linux-server/Server1/</loc>
-  <lastmod>2024-02-17T08:00:52+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://justyolo.github.io/linux-server/Server-Terrapin/</loc>
-  <lastmod>2024-02-17T08:00:52+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://justyolo.github.io/etc/FirstPost/</loc>
-  <lastmod>2024-02-17T08:00:52+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
+        {% if post.sitemap.priority == null %}
+        <priority>0.5</priority>
+        {% else %}
+        <priority>{{ post.sitemap.priority }}</priority>
+        {% endif %}
 
-
+    </url>
+    {% endfor %}
 </urlset>
