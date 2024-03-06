@@ -13,7 +13,6 @@ tags:
 마인크래프트 서버를 만들어 보려고 합니다.
 
 참조: [https://www.llewellynhughes.co.uk/post/installing-minecraft/](https://www.llewellynhughes.co.uk/post/installing-minecraft/)
-
 [https://docker-minecraft-server.readthedocs.io/en/latest/](https://docker-minecraft-server.readthedocs.io/en/latest/)
 
 먼저 docker container에 필요한 폴더를 생성해줍니다:
@@ -59,9 +58,11 @@ sudo docker exec -i (id) rcon-cli
 
 명령어로 rcon-cli를 사용 할 수 있습니다. 저는 화이트리스트 추가로 사용하고 있습니다.
 
-1일차:
+## 1일차:
 
 **Can't keep up! Is the server overloaded? 오류**
+
+한번 서버 터지는걸(...) 구경하기 위해 24시간 켜놓고 있었는데, 친구들이 가끔 하던일이 몇십초 전으로 롤백되는 경우가 있다고 해서 로그를 찾아봤더니 위의 문구가 나와서 해결법을 찾아봤습니다.
 
 [https://jizard.tistory.com/321](https://jizard.tistory.com/321)
 

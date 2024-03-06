@@ -102,12 +102,12 @@ HDD는 블프때 개당 10만원 안쪽으로 구매 ~~(관세랑 배송비가 �
 
 예?정:
 
-[하드 핫스왑베이](https://ko.aliexpress.com/item/1005004679846265.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=21209143504&tt=MG&shareId=21209143504&businessType=ProductDetail&platform=AE&afSmartRedirect=y)
+ [하드 핫스왑베이](https://ko.aliexpress.com/item/1005004679846265.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=21209143504&tt=MG&shareId=21209143504&businessType=ProductDetail&platform=AE&afSmartRedirect=y)
 
 구매한 케이스에 요즘 보기 흔치않은 5.25인치 베이 (ODD)가 2칸이 있어서 이런게 들어가면 좋을것 같은데… ~~중국산 치곤 가격이…~~
 
-2023.12.23: 케이스를 받아보니 5.25인치 베이랑 파워랑 간섭이 있어서 베이를 사용하는건 어려울것 같네요… 꼭 필요하면 파워를 바꾸던지 해야겠습니다.
+2023.12.23 update: 케이스를 받아보니 5.25인치 베이랑 파워랑 간섭이 있어서 베이를 사용하는건 어려울것 같네요… 꼭 필요하면 파워를 바꾸던지 해야겠습니다.
 
-PCIE std → m.2 nvme 변환카드 (HDD 캐싱용)
+#### PCIE std → m.2 nvme 변환카드 (HDD 캐싱용)
 
 원래는 하드디스크 캐싱이 필요 없을것 같았고 메인보드에 m.2 nvme 슬롯도 없어서 SSD가 추가로 필요 없을줄 알았는데, 생각보다 하드디스크의 속도가 느리고 PCIE 포트가 놀고있으니 괜히 SSD 사서 연결하고 싶은 생각이 듭니다. 돈이 남아 돌거나(?) 꼭 필요하다고 생각되면 추가하도록 하겠습니다.
