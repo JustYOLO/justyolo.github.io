@@ -26,12 +26,14 @@ $ xrandr
 
 예시)
 
-> Screen 0: minimum 320 x 200, current 3200 x 1080, maximum 8192 x 8192 
+```
+Screen 0: minimum 320 x 200, current 3200 x 1080, maximum 8192 x 8192 
 VGA-1 disconnected (normal left inverted right x axis y axis)
 HDMI-1 connected primary 1920x1080+0+0 (normal left inverted right x axis y axis) 531mm x 299mm
    1920x1080     59.93 +  60.00*   50.00    59.94  
    1920x1080i    60.00    50.00    59.94  
    1680x1050     59.88  
+```
 
 여기에서 해당하는 해상도로 변경해주시면 됩니다.
 
